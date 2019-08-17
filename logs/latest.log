@@ -1,0 +1,258 @@
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[18:59:25] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_222, running on Linux:amd64:5.0.0-25-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[18:59:25] [main/INFO] [FML]: Searching /home/xia/ForgeMinecraft1.12.2/./mods for mods
+[18:59:25] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.64-dev.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:59:25] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:27] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:59:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:29] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:59:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:59:34] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[18:59:34] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:59:35] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:59:35] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:59:36] [Server thread/INFO] [FML]: Searching /home/xia/ForgeMinecraft1.12.2/./mods for mods
+[18:59:38] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[18:59:38] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:59:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, inventorytweaks, jei, harvestcraft] at CLIENT
+[18:59:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, inventorytweaks, jei, harvestcraft] at SERVER
+[18:59:41] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:59:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:59:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:59:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:59:44] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
+[18:59:45] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:45] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[SANDY, DRY, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[HILLS, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[COLD, FOREST, CONIFEROUS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[SWAMP, WET]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[WATER, RIVER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[DRY, HOT, NETHER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[COLD, DRY, END]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[COLD, OCEAN, SNOWY, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[COLD, SNOWY, WATER, RIVER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[COLD, SNOWY, WASTELAND]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[COLD, SNOWY, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM, BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[SANDY, DRY, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[FOREST, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[COLD, FOREST, CONIFEROUS, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[WET, HOT, JUNGLE, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[WET, HOT, JUNGLE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[FOREST, RARE, WET, HOT, JUNGLE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[COLD, SNOWY, BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[FOREST, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[FOREST, SPOOKY, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[COLD, FOREST, CONIFEROUS, SNOWY]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[COLD, FOREST, CONIFEROUS, SNOWY, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[COLD, FOREST, CONIFEROUS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[COLD, FOREST, CONIFEROUS, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[FOREST, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[SAVANNA, PLAINS, SPARSE, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[SAVANNA, RARE, PLAINS, SPARSE, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[SANDY, DRY, SPARSE, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[RARE, PLAINS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[RARE, SANDY, DRY, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[RARE, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[COLD, FOREST, RARE, CONIFEROUS, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[SWAMP, RARE, WET, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[COLD, RARE, SNOWY, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[RARE, WET, HOT, JUNGLE, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[RARE, SPARSE, HOT, JUNGLE, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[FOREST, RARE, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, SPOOKY, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[COLD, FOREST, RARE, CONIFEROUS, SNOWY, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[FOREST, RARE, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[RARE, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[SAVANNA, RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[SAVANNA, RARE, DRY, SPARSE, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:59:46] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:59:47] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[18:59:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:59:47] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[18:59:50] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:51] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:59:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%
+[18:59:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[18:59:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
+[18:59:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
+[18:59:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[18:59:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[18:59:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%
+[18:59:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%
+[19:00:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[19:00:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%
+[19:00:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 40%
+[19:00:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
+[19:00:04] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:04] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%
+[19:00:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
+[19:00:06] [Netty Epoll Server IO #4/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Netty Epoll Server IO #5/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 57%
+[19:00:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 62%
+[19:00:08] [Netty Epoll Server IO #6/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:08] [Netty Epoll Server IO #7/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[19:00:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%
+[19:00:10] [Netty Epoll Server IO #0/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 77%
+[19:00:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
+[19:00:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 89%
+[19:00:13] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 95%
+[19:00:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (27.816s)! For help, type "help" or "?"
+[19:00:15] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:00:15] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:00:20] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5274ms behind, skipping 105 tick(s)
+[19:00:32] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Meow_Meow_ is 1071705f-7036-40b8-9dd3-c0dca26ddf25
+[19:00:33] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[19:00:33] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,FML@8.0.99.99,customnpcs@1.12,inventorytweaks@1.64-dev+release.110.b4fac73,harvestcraft@1.12.2zb,cfm@6.2.0,jei@4.11.0.204,forge@14.23.5.2838,chinjufumod@3.2.2,twilightforest@3.9.984,mcp@9.42,wearablebackpacks@3.1.3,forestry@5.8.1.322,journeymap@1.12.2-5.5.2
+[19:00:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:00:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Meow_Meow_[/192.168.1.4:52761] logged in with entity id 2081 at (185.5, 69.0, 257.5)
+[19:00:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ joined the game
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --- Showing help page 1 of 10 (/help <page>) ---
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /advancement <grant|revoke|test> <player>
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban <name> [reason ...]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban-ip <address|name> [reason ...]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /banlist [ips|players]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /blockdata <x> <y> <z> <dataTag>
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /clear [player] [item] [data] [maxCount] [dataTag]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[19:12:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:35:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:36:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:36:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:36:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:37:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:37:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ has made the advancement [Monster Hunter]
+[19:37:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:38:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:38:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Spider
+[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ fell out of the world
+[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Killed Meow_Meow_]
+[19:39:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:40:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:41:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Creative Mode]
+[19:42:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Survival Mode]
+[19:42:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:46] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[19:43:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ has made the advancement [Stone Age]
+[19:44:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Creative Mode]
+[19:44:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Meow_Meow_ lost connection: Disconnected
+[19:44:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ left the game
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[19:44:18] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:44:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server

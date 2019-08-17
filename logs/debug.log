@@ -1,0 +1,1836 @@
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:59:25] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[18:59:25] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[18:59:25] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_222, running on Linux:amd64:5.0.0-25-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[18:59:25] [main/DEBUG] [FML]: Java classpath at launch is:
+[18:59:25] [main/DEBUG] [FML]:     forge-1.12.2-14.23.5.2838-universal.jar
+[18:59:25] [main/DEBUG] [FML]: Java library path at launch is:
+[18:59:25] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[18:59:25] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu/jni
+[18:59:25] [main/DEBUG] [FML]:     /lib/x86_64-linux-gnu
+[18:59:25] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu
+[18:59:25] [main/DEBUG] [FML]:     /usr/lib/jni
+[18:59:25] [main/DEBUG] [FML]:     /lib
+[18:59:25] [main/DEBUG] [FML]:     /usr/lib
+[18:59:25] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /home/xia/ForgeMinecraft1.12.2/libraries
+[18:59:25] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[18:59:25] [main/DEBUG] [FML]: Examining file: justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:25] [main/DEBUG] [FML]: Examining file: InventoryTweaks-1.64-dev.jar
+[18:59:25] [main/DEBUG] [FML]: Examining file: Pam's HarvestCraft-1.12.2zb.jar
+[18:59:25] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[18:59:25] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[18:59:25] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[18:59:25] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:59:25] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[18:59:25] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[18:59:25] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[18:59:25] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[18:59:25] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:59:25] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[18:59:25] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[18:59:25] [main/DEBUG] [FML]: Discovering coremods
+[18:59:25] [main/INFO] [FML]: Searching /home/xia/ForgeMinecraft1.12.2/./mods for mods
+[18:59:25] [main/DEBUG] [FML]:   Adding justenoughitems_1.12.2-4.11.0.204.jar to the mod list
+[18:59:25] [main/DEBUG] [FML]:   Adding InventoryTweaks-1.64-dev.jar to the mod list
+[18:59:25] [main/DEBUG] [FML]:   Adding Pam's HarvestCraft-1.12.2zb.jar to the mod list
+[18:59:25] [main/DEBUG] [FML]: Examining for coremod candidacy InventoryTweaks-1.64-dev.jar
+[18:59:25] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.64-dev.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:59:25] [main/DEBUG] [FML]: Instantiating coremod class FMLPlugin
+[18:59:25] [main/TRACE] [FML]: coremod named Inventory Tweaks Coremod is loading
+[18:59:25] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:59:25] [main/DEBUG] [FML]: Found signing certificates for coremod Inventory Tweaks Coremod (invtweaks.forge.asm.FMLPlugin)
+[18:59:25] [main/DEBUG] [FML]: Found certificate 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe
+[18:59:25] [main/DEBUG] [FML]: Added access transformer class invtweaks.forge.asm.ITAccessTransformer to enqueued access transformers
+[18:59:25] [main/DEBUG] [FML]: Enqueued coremod Inventory Tweaks Coremod
+[18:59:25] [main/DEBUG] [FML]: Examining for coremod candidacy justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:25] [main/DEBUG] [FML]: Not found coremod data in justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:25] [main/DEBUG] [FML]: Examining for coremod candidacy Pam's HarvestCraft-1.12.2zb.jar
+[18:59:25] [main/DEBUG] [FML]: Not found coremod data in Pam's HarvestCraft-1.12.2zb.jar
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:25] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[18:59:25] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[18:59:26] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[18:59:26] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[18:59:26] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[18:59:26] [main/DEBUG] [FML]: Injection complete
+[18:59:26] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[18:59:26] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[18:59:27] [main/DEBUG] [FML]: Read 1140 binary patches
+[18:59:27] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[18:59:27] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:59:27] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[18:59:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:27] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[18:59:27] [main/DEBUG] [FML]: Injection complete
+[18:59:27] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[18:59:27] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[18:59:27] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[18:59:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:27] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[18:59:28] [main/DEBUG] [FML]: Loaded 12 rules from AccessTransformer config file invtweaks_at.cfg
+[18:59:28] [main/DEBUG] [FML]: Loaded 2 rules from AccessTransformer mod jar file ./mods/justenoughitems_1.12.2-4.11.0.204.jar!META-INF/jei_at.cfg
+
+[18:59:28] [main/DEBUG] [FML]: Validating minecraft
+[18:59:28] [main/DEBUG] [FML]: Minecraft validated, launching...
+[18:59:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:28] [main/DEBUG] [FML]: Injecting coremod Inventory Tweaks Coremod \{invtweaks.forge.asm.FMLPlugin\} class transformers
+[18:59:28] [main/TRACE] [FML]: Registering transformer invtweaks.forge.asm.ContainerTransformer
+[18:59:28] [main/DEBUG] [FML]: Injection complete
+[18:59:28] [main/DEBUG] [FML]: Running coremod plugin for Inventory Tweaks Coremod \{invtweaks.forge.asm.FMLPlugin\}
+[18:59:28] [main/DEBUG] [FML]: Running coremod plugin Inventory Tweaks Coremod
+[18:59:28] [main/DEBUG] [FML]: Coremod plugin class FMLPlugin run successfully
+[18:59:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:29] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:59:33] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[18:59:33] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[18:59:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:59:34] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[18:59:34] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:59:35] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:59:35] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:59:35] [Server thread/DEBUG] [FML]: File /home/xia/ForgeMinecraft1.12.2/config/injectedDependencies.json not found. No dependencies injected
+[18:59:36] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[18:59:36] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[18:59:36] [Server thread/DEBUG] [FML]: Found a minecraft related file at /home/xia/ForgeMinecraft1.12.2/forge-1.12.2-14.23.5.2838-universal.jar, examining for mod candidates
+[18:59:36] [Server thread/TRACE] [FML]: Skipping known library file /home/xia/ForgeMinecraft1.12.2/./mods/InventoryTweaks-1.64-dev.jar
+[18:59:36] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[18:59:36] [Server thread/INFO] [FML]: Searching /home/xia/ForgeMinecraft1.12.2/./mods for mods
+[18:59:36] [Server thread/DEBUG] [FML]:   Adding justenoughitems_1.12.2-4.11.0.204.jar to the mod list
+[18:59:36] [Server thread/DEBUG] [FML]:   Adding InventoryTweaks-1.64-dev.jar to the mod list
+[18:59:36] [Server thread/DEBUG] [FML]:   Adding Pam's HarvestCraft-1.12.2zb.jar to the mod list
+[18:59:36] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file InventoryTweaks-1.64-dev.jar
+[18:59:36] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:36] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Pam's HarvestCraft-1.12.2zb.jar
+[18:59:36] [Server thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2838-universal.jar for potential mods
+[18:59:36] [Server thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2838-universal.jar appears to be missing an mcmod.info file
+[18:59:37] [Server thread/DEBUG] [FML]: Examining file InventoryTweaks-1.64-dev.jar for potential mods
+[18:59:37] [Server thread/TRACE] [FML]: Located mcmod.info file in file InventoryTweaks-1.64-dev.jar
+[18:59:37] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (invtweaks.forge.InvTweaksMod) - loading
+[18:59:37] [Server thread/TRACE] [FML]: Parsed dependency info for inventorytweaks: Requirements: [forge@[14.21.0,)] After:[forge@[14.21.0,)] Before:[]
+[18:59:37] [Server thread/DEBUG] [FML]: Attempting to load the file version.properties from InventoryTweaks-1.64-dev.jar to locate a version number for mod inventorytweaks
+[18:59:37] [Server thread/DEBUG] [FML]: Found version 1.64-dev+release.110.b4fac73 for mod inventorytweaks in version.properties, using
+[18:59:37] [Server thread/DEBUG] [FML]: Examining file justenoughitems_1.12.2-4.11.0.204.jar for potential mods
+[18:59:37] [Server thread/TRACE] [FML]: Located mcmod.info file in file justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:37] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mezz.jei.JustEnoughItems) - loading
+[18:59:37] [Server thread/TRACE] [FML]: Parsed dependency info for jei: Requirements: [forge@[14.23.1.2594,)] After:[forge@[14.23.1.2594,)] Before:[]
+[18:59:37] [Server thread/DEBUG] [FML]: Examining file Pam's HarvestCraft-1.12.2zb.jar for potential mods
+[18:59:37] [Server thread/TRACE] [FML]: Located mcmod.info file in file Pam's HarvestCraft-1.12.2zb.jar
+[18:59:37] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.pam.harvestcraft.HarvestCraft) - loading
+[18:59:37] [Server thread/TRACE] [FML]: Parsed dependency info for harvestcraft: Requirements: [] After:[] Before:[]
+[18:59:38] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[18:59:38] [Server thread/DEBUG] [FML]: Found API mezz.jei.api (owned by jei providing JustEnoughItemsAPI) embedded in jei
+[18:59:38] [Server thread/DEBUG] [FML]: Creating API container dummy for API JustEnoughItemsAPI: owner: jei, dependents: []
+[18:59:38] [Server thread/TRACE] [FML]: Received a system property request ''
+[18:59:38] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[18:59:38] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[18:59:38] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:59:38] [Server thread/DEBUG] [FML]: Enabling mod inventorytweaks
+[18:59:38] [Server thread/DEBUG] [FML]: Enabling mod jei
+[18:59:38] [Server thread/DEBUG] [FML]: Enabling mod harvestcraft
+[18:59:38] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[18:59:38] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[18:59:38] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
+[18:59:38] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[18:59:38] [Server thread/DEBUG] [FML]: Mod sorting data
+[18:59:38] [Server thread/DEBUG] [FML]: 	inventorytweaks(Inventory Tweaks:1.64-dev+release.110.b4fac73): InventoryTweaks-1.64-dev.jar (required-after:forge@[14.21.0,))
+[18:59:38] [Server thread/DEBUG] [FML]: 	jei(Just Enough Items:4.11.0.204): justenoughitems_1.12.2-4.11.0.204.jar (required-after:forge@[14.23.1.2594,);)
+[18:59:38] [Server thread/DEBUG] [FML]: 	harvestcraft(Pam's HarvestCraft:1.12.2zb): Pam's HarvestCraft-1.12.2zb.jar ()
+[18:59:38] [Server thread/DEBUG] [FML]: 	JustEnoughItemsAPI(API: JustEnoughItemsAPI:4.13.0): justenoughitems_1.12.2-4.11.0.204.jar ()
+[18:59:38] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[18:59:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[18:59:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[18:59:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.003s
+[18:59:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[18:59:38] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[18:59:38] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[18:59:38] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[18:59:38] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[18:59:38] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[18:59:39] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[18:59:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, inventorytweaks, jei, harvestcraft] at CLIENT
+[18:59:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, inventorytweaks, jei, harvestcraft] at SERVER
+[18:59:40] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[18:59:40] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 1.171s
+[18:59:40] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[18:59:40] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@551cb4d0
+[18:59:40] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[18:59:40] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[18:59:40] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[18:59:40] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[18:59:40] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2838)
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[18:59:40] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[18:59:40] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.511s
+[18:59:40] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod inventorytweaks
+[18:59:40] [Server thread/TRACE] [FML]: Mod inventorytweaks is using network checker : No network checking performed
+[18:59:40] [Server thread/TRACE] [FML]: Testing mod inventorytweaks to verify it accepts its own version in a remote connection
+[18:59:40] [Server thread/TRACE] [FML]: The mod inventorytweaks accepts its own version (1.64-dev+release.110.b4fac73)
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into inventorytweaks
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for inventorytweaks
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into inventorytweaks for type INSTANCE
+[18:59:40] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod inventorytweaks
+[18:59:40] [Server thread/DEBUG] [FML]: Bar Step: Construction - Inventory Tweaks took 0.433s
+[18:59:40] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod jei
+[18:59:40] [Server thread/TRACE] [FML]: Mod jei is using network checker : Invoking method checkModLists
+[18:59:40] [Server thread/TRACE] [FML]: Testing mod jei to verify it accepts its own version in a remote connection
+[18:59:40] [Server thread/TRACE] [FML]: The mod jei accepts its own version (4.11.0.204)
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into jei
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into jei for type INSTANCE
+[18:59:40] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod jei
+[18:59:40] [Server thread/DEBUG] [FML]: Bar Step: Construction - Just Enough Items took 0.015s
+[18:59:40] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod harvestcraft
+[18:59:40] [Server thread/TRACE] [FML]: Mod harvestcraft is using network checker : Accepting version 1.12.2zb
+[18:59:40] [Server thread/TRACE] [FML]: Testing mod harvestcraft to verify it accepts its own version in a remote connection
+[18:59:40] [Server thread/TRACE] [FML]: The mod harvestcraft accepts its own version (1.12.2zb)
+[18:59:40] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into harvestcraft
+[18:59:41] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for harvestcraft
+[18:59:41] [Server thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.pam.harvestcraft.item.RecipeRemoval for mod harvestcraft
+[18:59:41] [Server thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.pam.harvestcraft.item.RecipeRemoval
+[18:59:41] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into harvestcraft for type INSTANCE
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod harvestcraft
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: Construction - Pam's HarvestCraft took 0.309s
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 2.443s
+[18:59:41] [Server thread/DEBUG] [FML]: Mod signature data
+[18:59:41] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[18:59:41] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2838-universal.jar
+[18:59:41] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.5.2838)	forge-1.12.2-14.23.5.2838-universal.jar
+[18:59:41] [Server thread/DEBUG] [FML]: 		(55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe) inventorytweaks	(Inventory Tweaks	1.64-dev+release.110.b4fac73)	InventoryTweaks-1.64-dev.jar
+[18:59:41] [Server thread/DEBUG] [FML]:  	Missing Signatures:
+[18:59:41] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[18:59:41] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[18:59:41] [Server thread/DEBUG] [FML]: 		jei	(Just Enough Items	4.11.0.204)	justenoughitems_1.12.2-4.11.0.204.jar
+[18:59:41] [Server thread/DEBUG] [FML]: 		harvestcraft	(Pam's HarvestCraft	1.12.2zb)	Pam's HarvestCraft-1.12.2zb.jar
+[18:59:41] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:59:41] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001s
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.007s
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[18:59:41] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.588s
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod inventorytweaks
+[18:59:41] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod inventorytweaks
+[18:59:41] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Inventory Tweaks took 0.001s
+[18:59:41] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod jei
+[18:59:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:59:42] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod jei
+[18:59:42] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Just Enough Items took 0.383s
+[18:59:42] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod harvestcraft
+[18:59:42] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2838",
+    "1.12.2-recommended": "14.23.5.2768",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.0.49",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343",
+    "recommended": "14.23.5.2768"
+  }
+}
+[18:59:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:43] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod harvestcraft
+[18:59:43] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Pam's HarvestCraft took 0.949s
+[18:59:43] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 1.930s
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:59:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[18:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:59:44] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:45] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
+[18:59:45] [Server thread/INFO] [FML]: Applying holder lookups
+[18:59:45] [Server thread/INFO] [FML]: Holder lookups applied
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod inventorytweaks
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod inventorytweaks
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Inventory Tweaks took 0.009s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod jei
+[18:59:45] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod jei
+[18:59:45] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Just Enough Items took 0.001s
+[18:59:45] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod harvestcraft
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[SANDY, DRY, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[HILLS, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[COLD, FOREST, CONIFEROUS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[SWAMP, WET]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[WATER, RIVER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[DRY, HOT, NETHER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[COLD, DRY, END]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[COLD, OCEAN, SNOWY, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[COLD, SNOWY, WATER, RIVER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[COLD, SNOWY, WASTELAND]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[COLD, SNOWY, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM, BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[SANDY, DRY, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[FOREST, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[COLD, FOREST, CONIFEROUS, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[WET, HOT, JUNGLE, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[WET, HOT, JUNGLE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[FOREST, RARE, WET, HOT, JUNGLE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[OCEAN, WATER]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[COLD, SNOWY, BEACH]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[FOREST, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[FOREST, SPOOKY, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[COLD, FOREST, CONIFEROUS, SNOWY]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[COLD, FOREST, CONIFEROUS, SNOWY, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[COLD, FOREST, CONIFEROUS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[COLD, FOREST, CONIFEROUS, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[FOREST, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[SAVANNA, PLAINS, SPARSE, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[SAVANNA, RARE, PLAINS, SPARSE, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[SANDY, DRY, SPARSE, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[RARE, PLAINS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[RARE, SANDY, DRY, HOT]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[RARE, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[COLD, FOREST, RARE, CONIFEROUS, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[SWAMP, RARE, WET, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[COLD, RARE, SNOWY, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[RARE, WET, HOT, JUNGLE, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[RARE, SPARSE, HOT, JUNGLE, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[FOREST, RARE, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, SPOOKY, DENSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[COLD, FOREST, RARE, CONIFEROUS, SNOWY, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[FOREST, RARE, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[RARE, SPARSE, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[SAVANNA, RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[SAVANNA, RARE, DRY, SPARSE, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, HILLS]
+[18:59:45] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[RARE, DRY, SPARSE, HOT, MOUNTAIN]
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:taiga_cold
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:taiga_cold_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_taiga_cold
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:taiga
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:taiga_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:river
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_birch_forest_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_roofed_forest
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:savanna
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_hills
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:jungle_edge
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle
+[18:59:46] [Server thread/TRACE] [harvestcraft]: biome added:minecraft:mutated_jungle_edge
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/INFO] [harvestcraft]: Registering drops for %s.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod harvestcraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Pam's HarvestCraft took 0.945s
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Finished: Initialization took 0.956s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.009s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.001s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod inventorytweaks
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod inventorytweaks
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod inventorytweaks
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Inventory Tweaks took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod jei
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod jei
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod jei
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Just Enough Items took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod harvestcraft
+[18:59:46] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod harvestcraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod harvestcraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Pam's HarvestCraft took 0.000s
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.012s
+[18:59:46] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:59:46] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.001s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod inventorytweaks
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod inventorytweaks
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Inventory Tweaks took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod jei
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod jei
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Just Enough Items took 0.001s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod harvestcraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod harvestcraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Pam's HarvestCraft took 0.001s
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.005s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[18:59:46] [Server thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[18:59:46] [Server thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[18:59:46] [Server thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[18:59:46] [Server thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[18:59:46] [Server thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[18:59:46] [Server thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[18:59:46] [Server thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[18:59:46] [Server thread/DEBUG] [FML]: Sorting recipes
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.023s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod inventorytweaks
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod inventorytweaks
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Inventory Tweaks took 0.002s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod jei
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod jei
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Just Enough Items took 0.006s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod harvestcraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod harvestcraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Pam's HarvestCraft took 0.007s
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.038s
+[18:59:46] [Server thread/DEBUG] [FML]: Freezing registries
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[18:59:46] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[18:59:46] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[18:59:46] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.102s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod inventorytweaks
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod inventorytweaks
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Inventory Tweaks took 0.001s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod jei
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod jei
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Just Enough Items took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod harvestcraft
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod harvestcraft
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Pam's HarvestCraft took 0.000s
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.105s
+[18:59:47] [Server thread/DEBUG] [FML]: All registries frozen
+[18:59:47] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod inventorytweaks
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod inventorytweaks
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Inventory Tweaks took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod jei
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod jei
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Just Enough Items took 0.000s
+[18:59:47] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod harvestcraft
+[18:59:47] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod harvestcraft
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Pam's HarvestCraft took 0.000s
+[18:59:47] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.002s
+[18:59:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:59:47] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[18:59:50] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:51] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@43078d6e)
+[18:59:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:59:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 2%
+[18:59:52] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest_hills with rarity < 13.
+[18:59:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 28.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 12.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 91.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 52.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 65.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 62.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 94.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 29.
+[18:59:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 81.
+[18:59:54] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 75.
+[18:59:55] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 46.
+[18:59:55] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 45.
+[18:59:55] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 41.
+[18:59:55] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 12.
+[18:59:55] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 7.
+[18:59:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 13.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 67.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 24.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 53.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 25.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 65.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 24.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 22.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 9.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 24.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 87.
+[18:59:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 55.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 27.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 6.
+[18:59:56] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 47.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 1.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 12.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 10.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 96.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 36.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 84.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 88.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 7.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 83.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 68.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 7.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 14.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 34.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 34.
+[18:59:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 33.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:stone_beach with rarity < 13.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:stone_beach with rarity < 46.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 18.
+[18:59:57] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 85.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 5.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 19.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 51.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 78.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 37.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 19.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 15.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 93.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 41.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 57.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 56.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 84.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 77.
+[18:59:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 65.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 92.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[18:59:58] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 40.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 43.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 5.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 0.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 36.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 74.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 9.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 8.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 88.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 40.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 72.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 87.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 59.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 92.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 11.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 67.
+[18:59:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 23%
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 28.
+[18:59:59] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 82.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 52.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 3.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 18.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 27.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 70.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 62.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 99.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 97.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 94.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 13.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 1.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 16.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 19.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 89.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 21.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 52.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 12.
+[19:00:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 54.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 1.
+[19:00:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 94.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 13.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 73.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 89.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 40.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 24.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 76.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 55.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 18.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 56.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 12.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 46.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 47.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 23.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 47.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 0.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 19.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 88.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 51.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 99.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 7.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 3.
+[19:00:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 34%
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 86.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 29.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 31.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 74.
+[19:00:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 53.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 38.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 93.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 2.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 79.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 55.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 89.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 17.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 2.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 34.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 26.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 50.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 6.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 8.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 12.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 78.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 65.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 80.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 68.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 66.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 48.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 44.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 42.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 7.
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 82.
+[19:00:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 40%
+[19:00:02] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 10.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 73.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 0.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 7.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 80.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 8.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 60.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 71.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 95.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 83.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 79.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 13.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 87.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 63.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 93.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 42.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 9.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 85.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 75.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 67.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 62.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 6.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 19.
+[19:00:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 50.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 86.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 42.
+[19:00:03] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 42.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 16.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 56.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 58.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 66.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 36.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:04] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 52.
+[19:00:04] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 35.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 90.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 42.
+[19:00:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 16.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 96.
+[19:00:04] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 3.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 78.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 70.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 73.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 69.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 41.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 13.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 31.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 51.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 85.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 48.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 27.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 19.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 15.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 55.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 97.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 25.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 91.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 98.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 60.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 69.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 61.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 96.
+[19:00:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 15.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 8.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 82.
+[19:00:05] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 77.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 47.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 40.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 42.
+[19:00:06] [Netty Epoll Server IO #4/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 90.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 18.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 38.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 12.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 28.
+[19:00:06] [Netty Epoll Server IO #5/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 94.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 62.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 33.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 20.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 31.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 31.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 46.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 47.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 92.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 50.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 29.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 68.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 26.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 81.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 65.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 65.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 29.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 91.
+[19:00:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 57%
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 26.
+[19:00:06] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 16.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 89.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 47.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 27.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 62.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 21.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 25.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 3.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 79.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 38.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 45.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 5.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 33.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 95.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 60.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 44.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 82.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 37.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 79.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 20.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 54.
+[19:00:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 62%
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 82.
+[19:00:07] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 54.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 53.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 24.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 0.
+[19:00:08] [Netty Epoll Server IO #6/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 86.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 78.
+[19:00:08] [Netty Epoll Server IO #7/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 77.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 65.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 52.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 7.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 50.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 90.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 58.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 51.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 24.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 30.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 2.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 21.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 37.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 5.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 28.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 99.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 57.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 15.
+[19:00:08] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 66.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 93.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 1.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 75.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 87.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 51.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 51.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 49.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 61.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 16.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 52.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 47.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 7.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 66.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 54.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 35.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 71.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 35.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 57.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 97.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 76.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 8.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 66.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 58.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 41.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 76.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 91.
+[19:00:09] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 91.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 94.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 38.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 20.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 37.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 18.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 78.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 81.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 9.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 40.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 96.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 95.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 79.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 61.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 65.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 59.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 19.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 94.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 59.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:00:10] [Netty Epoll Server IO #0/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[19:00:10] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 33.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 97.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 20.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 39.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 44.
+[19:00:10] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 69.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 56.
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 15.
+[19:00:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 77%
+[19:00:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 75.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 90.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 88.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 95.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 34.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 61.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 10.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 20.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 16.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 70.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 24.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 34.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 6.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 12.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 84.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 95.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 87.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 58.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 16.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 73.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 15.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 50.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 81.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 72.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 84.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 12.
+[19:00:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 59.
+[19:00:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 39.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 37.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 53.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 26.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 3.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 71.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 11.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 30.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 94.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 17.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 44.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 99.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 27.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 53.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 8.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 43.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 79.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:plains with rarity < 3.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 77.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 82.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 4.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 16.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 1.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 53.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 50.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 64.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 72.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 7.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 59.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 90.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 74.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 72.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 84.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 99.
+[19:00:12] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 34.
+[19:00:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 89%
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 6.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 50.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 88.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 45.
+[19:00:13] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 19.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 84.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 56.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 96.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 91.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 19.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 73.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 0.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 75.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 79.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 69.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 67.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 15.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 1.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 25.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 19.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 3.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 61.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 34.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 43.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 87.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 55.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 19.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 66.
+[19:00:13] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 28.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 79.
+[19:00:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 95%
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 90.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 86.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 17.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 6.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 60.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 72.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 60.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 63.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 50.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 36.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 60.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 42.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 46.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 62.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 34.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 49.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 73.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 10.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 45.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 36.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 44.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 88.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 7.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 8.
+[19:00:14] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 68.
+[19:00:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (27.816s)! For help, type "help" or "?"
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.058s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod inventorytweaks
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod inventorytweaks
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Inventory Tweaks took 0.001s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod jei
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod jei
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Just Enough Items took 0.001s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod harvestcraft
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod harvestcraft
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Pam's HarvestCraft took 0.000s
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.061s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod inventorytweaks
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod inventorytweaks
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Inventory Tweaks took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod jei
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod jei
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Just Enough Items took 0.000s
+[19:00:14] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod harvestcraft
+[19:00:14] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod harvestcraft
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Pam's HarvestCraft took 0.000s
+[19:00:14] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.002s
+[19:00:15] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[19:00:15] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
+[19:00:15] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:00:15] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:00:20] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5274ms behind, skipping 105 tick(s)
+[19:00:32] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Meow_Meow_ is 1071705f-7036-40b8-9dd3-c0dca26ddf25
+[19:00:33] [Server thread/TRACE] [FML]: Handshake channel activating
+[19:00:33] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[19:00:33] [Server thread/DEBUG] [FML]:   Next: HELLO
+[19:00:33] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[19:00:33] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[19:00:33] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ModList:14 mods->FMLHandshakeServerState$2:HELLO
+[19:00:33] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,FML@8.0.99.99,customnpcs@1.12,inventorytweaks@1.64-dev+release.110.b4fac73,harvestcraft@1.12.2zb,cfm@6.2.0,jei@4.11.0.204,forge@14.23.5.2838,chinjufumod@3.2.2,twilightforest@3.9.984,mcp@9.42,wearablebackpacks@3.1.3,forestry@5.8.1.322,journeymap@1.12.2-5.5.2
+[19:00:34] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: WAITINGCACK
+[19:00:34] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[19:00:34] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: COMPLETE
+[19:00:35] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[19:00:35] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: DONE
+[19:00:35] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[19:00:35] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[19:00:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:00:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Meow_Meow_[/192.168.1.4:52761] logged in with entity id 2081 at (185.5, 69.0, 257.5)
+[19:00:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ joined the game
+[19:00:49] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 47.
+[19:00:49] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 36.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 1.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 49.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 89.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 50.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 27.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 72.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 66.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 70.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 63.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 6.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 71.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 79.
+[19:00:50] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 84.
+[19:01:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:01:17] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 74.
+[19:01:23] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 30.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 5.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 18.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 19.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 4.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 2.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 36.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 10.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 79.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 18.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 98.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 37.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 65.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 99.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 27.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 52.
+[19:01:27] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 57.
+[19:01:31] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:deep_ocean with rarity < 68.
+[19:01:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:02:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:03:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:04:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:04:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --- Showing help page 1 of 10 (/help <page>) ---
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /advancement <grant|revoke|test> <player>
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban <name> [reason ...]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban-ip <address|name> [reason ...]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /banlist [ips|players]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /blockdata <x> <y> <z> <dataTag>
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /clear [player] [item] [data] [maxCount] [dataTag]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /clone <x1> <y1> <z1> <x2> <y2> <z2> <x> <y> <z> [maskMode] [cloneMode]
+[19:05:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[19:05:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:06:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:07:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:07:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:08:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:09:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:10:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:10:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:11:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:12:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 53.
+[19:12:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 45.
+[19:12:00] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 23.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 12.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 7.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 1.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 3.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 37.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 39.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 84.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 24.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 81.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 26.
+[19:12:01] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 6.
+[19:12:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:12:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 8.
+[19:12:10] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:river with rarity < 5.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 7.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 46.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:forest with rarity < 0.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:beaches with rarity < 13.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 80.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 77.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 50.
+[19:12:11] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 15.
+[19:12:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:13:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:13:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:14:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:15:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:16:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:16:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:17:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:18:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:19:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:19:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:20:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:21:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:21:39] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 52.
+[19:22:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:22:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:23:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:24:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:25:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:25:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:26:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:28:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:28:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:29:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:30:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:31:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:31:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:32:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:33:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:34:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:34:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:35:18] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 58.
+[19:35:18] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 75.
+[19:35:23] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 65.
+[19:35:23] [Server thread/DEBUG] [harvestcraft]: no fruit available for biome: minecraft:ocean with rarity < 60.
+[19:35:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:35:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:36:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:36:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:36:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:36:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:37:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:37:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:37:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:37:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ has made the advancement [Monster Hunter]
+[19:37:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:37:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:38:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was shot by Skeleton
+[19:38:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Spider
+[19:38:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:39:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ fell out of the world
+[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Killed Meow_Meow_]
+[19:39:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was slain by Zombie
+[19:40:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:40:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:40:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:41:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Creative Mode]
+[19:41:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:42:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Survival Mode]
+[19:42:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:42:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ was blown up by Creeper
+[19:42:46] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[19:43:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ has made the advancement [Stone Age]
+[19:43:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:43:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:44:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Meow_Meow_: Set own game mode to Creative Mode]
+[19:44:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Meow_Meow_ lost connection: Disconnected
+[19:44:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Meow_Meow_ left the game
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod inventorytweaks
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod inventorytweaks
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Inventory Tweaks took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod jei
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod jei
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Just Enough Items took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod harvestcraft
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod harvestcraft
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Pam's HarvestCraft took 0.001s
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.004s
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:44:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[19:44:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:44:18] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod inventorytweaks
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod inventorytweaks
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Inventory Tweaks took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod jei
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod jei
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Just Enough Items took 0.001s
+[19:44:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod harvestcraft
+[19:44:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod harvestcraft
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Pam's HarvestCraft took 0.001s
+[19:44:18] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.006s
+[19:44:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
